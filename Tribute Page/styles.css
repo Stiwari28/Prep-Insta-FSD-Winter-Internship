@@ -31,3 +31,29 @@ figcaption{
     color: rgb(5, 5, 5);
     font-size: x-large;
 }
+
+#tribute-info p{
+    text-align: justify;
+    line-height: 2;
+}
+
+#movies-list{
+    margin-top: 20px;
+}
+
+#movies-list li{
+    margin-bottom: 10px;
+}
+
+#ul-list-films{
+    list-style-type:circle;
+}
+
+q, #movies-list h2{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 20px;
+    font-size: x-large;
+    font-weight: bolder;
+}
