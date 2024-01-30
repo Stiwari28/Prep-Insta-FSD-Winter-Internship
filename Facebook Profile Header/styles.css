@@ -337,3 +337,29 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 33%, rgba(0,0,0,1) 100%);
 .friends_card figcaption{
     margin-left: 2vw;
 }
+
+.life-events .events{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   justify-self: center;
+}
+
+.events .card{
+    display: flex;
+    flex-direction: column;
+    width: 12vw;
+    height: 40vh;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px;
+}
+.card i, .card p, .card h3{
+    background-color: darkorchid;
+    width: fit-content;
+    margin:auto;
+}
+.card i{
+    font-size: 3rem;
+}
