@@ -10,6 +10,9 @@ Here are the projects I developed during the Winter Internship provided by PrepI
 - Prerequisite:- Basic understanding of HTML and CSS 
 - Technologies used:- HTML and CSS
 - Description:- A page dedicated to Robert Downey Jr.
- 
-
+## 3. [Facebook Profile Header :girl:](https://stiwari28.github.io/Prep-Insta-FSD-Winter-Internship/Facebook_profile_header/)
+- Proficiency Level:- Intermediate
+- Prerequisite:- Good understanding of HTML and CSS 
+- Technologies used:- HTML and CSS
+- Description:- User description page (Facebook user's page) 
 
