@@ -9,7 +9,9 @@
   scroll-padding-top: 2rem;
   font-family: 'Roboto', sans-serif;
 }
-
+body{
+    overflow-x: hidden;
+}
 /*--------------------------------------------------------------Navigation Bar----------------------------------*/
 .mainnav{
     position: fixed;
@@ -223,4 +225,115 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 33%, rgba(0,0,0,1) 100%);
 }
 .second-nav .threeDotDiv{
     font-size: 1rem;
+}
+/*-----------------------------------------Description Wall------------------------------*/
+
+.description-wall{
+    background-color: coral;
+    display: flex;
+   justify-content: center;
+   justify-self: center;
+   flex-direction: row;
+   
+}
+
+.left-side, .right-side{
+   width: 30vw;
+   margin:5px;
+   padding: 5px;
+   display: flex;
+   flex-direction:column;
+   border-radius:10px;
+}
+
+.left-side{
+   background-color: rgb(76, 13, 76);
+   
+}
+
+.right-side{
+    background-color: darkslateblue;
+}
+
+.intro, .photos, .friends, .life-events{
+    background-color: cornflowerblue;
+    padding: 10px;
+     border-radius: 10px;
+}
+.photos, .friends, .life-events{
+    background-color: chocolate;
+    margin-top: 10px;
+}
+.intro-top, .friends-top, .photos-top, .events-top{
+    background-color: darkolivegreen;
+    margin-bottom: 5px;
+}
+.friends-top, .photos-top, .events-top{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+.friends-top a , .photos-top a, .events-top a{
+    position:absolute;
+    right: 5px;
+    padding: 5px;
+}
+.intro .intro-top h2{
+    font-weight: bolder;
+} 
+.intro .intro-top p{
+    padding: 5px;
+    border-bottom: 2px solid gray;
+}
+.intro .intro-list{
+    background-color: fuchsia;
+    margin-top: 5px;
+}
+.intro-list .icon-intro{
+    background-color: honeydew;
+    padding-top: 10px;
+    display: flex;
+   flex-direction: row;
+}
+.intro-list .icon-intro i{
+    color: gray;
+    padding-right: 10px;
+}
+.intro-list .icon-intro p{
+   font-weight: bolder;
+}
+
+.friends-table{
+    background-color: darkslategrey;
+    top: 10px;
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+.friends-table table tr td{
+    background-color: rgb(18, 62, 101);
+    height: 8vw;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.friendsCardDiv{
+    background-color: deepskyblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   justify-self: center;
+   padding: 10px 0;
+}
+.friends_card{
+    background-color: rgb(90, 91, 91);
+    margin: 5px;
+}
+.friends_card figure img{
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+}
+.friends_card figcaption{
+    margin-left: 2vw;
 }
