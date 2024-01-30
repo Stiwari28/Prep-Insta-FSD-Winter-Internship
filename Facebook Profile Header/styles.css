@@ -10,14 +10,18 @@
   font-family: 'Roboto', sans-serif;
 }
 
+/*--------------------------------------------------------------Navigation Bar----------------------------------*/
 .mainnav{
+    position: fixed;
     background-color: peachpuff;
     display: flex;
     flex-direction: row;
+    height:10vh;
+    z-index: 5;
 }
 
 #main-nav-left{
-    width: fit-content;
+    width: 20vw;
     height: fit-content;
     margin: 10px;
     display: flex;
@@ -28,28 +32,195 @@
     height: 40px;
     margin: 5px;
 }
-#main-nav-left div{
-    padding: 15px;
-    width: 20vw;
-}
 
+#left-icon-input-div{
+    width:fit-content;
+    height: min-content;
+    margin: 10px;
+    padding: 3px;
+    border-radius: 50px;
+    background-color: green;
+   /* background-color:rgb(191, 221, 231);*/
+}
+#left-icon-input-div input{
+    padding: 5px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(191, 221, 231);
+    color: black;
+}
+#left-icon-input-div input::placeholder{
+    color: rgb(94, 94, 94);
+}
+#left-icon-input-div i{
+    color: rgb(94, 94, 94);
+}
 #main-nav-center{
     background-color: blue;
     width: 60vw;
     height: fit-content;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    flex-direction: row;
+    padding: 10px;
     margin: 20px;
 }
 #main-nav-center i{
-    padding: 0 20px;
+    padding: 0 50px;
+    font-size: 1.5rem;
 }
 #main-nav-right{
+    width: 15vw;
+    height: fit-content;
     margin-right: 0;
     float: right;
     background-color: brown;
 }
 #main-nav-right img{
-    width: 50px;
-    height: 50px;
+    position:absolute;
+    top: 18px;
+    right: 14px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
+}
+#main-nav-right div{
+    padding: 5px;
+    margin: 15px;
+    background-color: blueviolet;
+    width: fit-content;
+}    
+#main-nav-right i{
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 1.5rem;
+    background-color: rgb(149, 149, 149);
+    border-radius: 50%;
+   
+}
+
+
+/*--------------------------------------------------------------Cover+DP+ Basic info----------------------------------*/
+.BGgradient{
+    width: 100vw;
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 33%, rgba(0,0,0,1) 100%);
+}
+.image-wall{
+    background-color: purple;
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.background-cover{
+    background-color: rgb(255, 126, 147);
+    margin: auto;
+    height: min-content;
+}
+.background-cover img{
+    height: 40vh;
+    width: 70vw;
+    border-radius: 10px;
+}
+.dp-name-button{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    height: 10vw;
+    background-color: chocolate;
+    margin: auto;
+    width: 90%;
+    border-bottom: 2px solid grey;
+}
+.dp-name-button .dp{
+    background-color: crimson;
+}
+.dp-name-button img{
+   width: 12rem;
+   border-radius:50%;
+   border: 5px solid white;
+   transform: translateY(-40%);
+}
+
+.dp-name-button .name-mutual{
+    background-color: chartreuse;
+    margin: 20px;
+    padding: 10px;
+}
+
+.dp-name-button .friendsMessageButton{
+    position:absolute;
+    right: 0;
+    bottom: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+}
+
+.friendsMessageButton .friendsButton, .messageButton{
+    display: flex;
+    flex-direction: row;
+}
+.friendsButton, .messageButton, .dropdownButton{
+      padding: 5px 10px;
+      margin: 5px;
+      border-radius: 5px;
+}
+.friendsButton, .dropdownButton{
+    background-color:rgb(149, 149, 149) ;
+}
+.friendsButton i, .messageButton i{
+    padding-right: 3px;
+    font-size: 1.2rem;
+}
+.messageButton{
+    color: white;
+    background-color:blue ;
+}
+
+.name-mutual h1{
+   font-weight:50px;
+}
+.name-mutual h4 a{
+    padding-top: 10px;
+    text-decoration: none;
+    color: rgb(72, 72, 72);
+}
+
+.second-nav{
+    position:relative;
+   background-color: darkcyan;
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   justify-self: center;
+   flex-direction: row;
+   width: 90%;
+   height: 3rem;
+}
+.second-nav .nav2{
+    position:absolute;
+    top: 15px;
+    left: 0;
+    background-color: darkblue;
+}
+.second-nav .nav2 a{
+   padding: 15px;
+   font-weight: 2rem;
+}
+.second-nav .threeDotDiv{
+    position: absolute;
+    top: 8px;
+    right: 0;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color:rgb(149, 149, 149) ;
+}
+.second-nav .threeDotDiv{
+    font-size: 1rem;
 }
