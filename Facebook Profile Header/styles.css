@@ -15,10 +15,10 @@ body{
 /*--------------------------------------------------------------Navigation Bar----------------------------------*/
 .mainnav{
     position: fixed;
-    background-color: peachpuff;
+    background-color:white;
     display: flex;
     flex-direction: row;
-    height:10vh;
+    height:8vh;
     z-index: 5;
 }
 
@@ -28,7 +28,6 @@ body{
     margin: 10px;
     display: flex;
     flex-direction: row;
-    background-color: aqua;
 }
 #main-nav-left img{
     height: 40px;
@@ -41,8 +40,7 @@ body{
     margin: 10px;
     padding: 3px;
     border-radius: 50px;
-    background-color: green;
-   /* background-color:rgb(191, 221, 231);*/
+   background-color:rgb(191, 221, 231);
 }
 #left-icon-input-div input{
     padding: 5px;
@@ -58,7 +56,6 @@ body{
     color: rgb(94, 94, 94);
 }
 #main-nav-center{
-    background-color: blue;
     width: 60vw;
     height: fit-content;
     display: flex;
@@ -77,7 +74,6 @@ body{
     height: fit-content;
     margin-right: 0;
     float: right;
-    background-color: brown;
 }
 #main-nav-right img{
     position:absolute;
@@ -90,7 +86,6 @@ body{
 #main-nav-right div{
     padding: 5px;
     margin: 15px;
-    background-color: blueviolet;
     width: fit-content;
 }    
 #main-nav-right i{
@@ -106,11 +101,12 @@ body{
 /*--------------------------------------------------------------Cover+DP+ Basic info----------------------------------*/
 .BGgradient{
     width: 100vw;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     background: rgb(255,255,255);
-background: linear-gradient(0deg, rgba(255,255,255,1) 33%, rgba(0,0,0,1) 100%);
+background: linear-gradient(0deg, rgba(255,255,255,1) 26%, rgba(0,0,0,1) 77%);
 }
 .image-wall{
-    background-color: purple;
+    background-color: white;
     width: 70vw;
     margin: auto;
     display: flex;
@@ -119,7 +115,6 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 33%, rgba(0,0,0,1) 100%);
 }
 
 .background-cover{
-    background-color: rgb(255, 126, 147);
     margin: auto;
     height: min-content;
 }
@@ -133,14 +128,11 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 33%, rgba(0,0,0,1) 100%);
     display: flex;
     flex-direction: row;
     height: 10vw;
-    background-color: chocolate;
     margin: auto;
     width: 90%;
-    border-bottom: 2px solid grey;
+    border-bottom: 1px solid rgb(169, 166, 166);
 }
-.dp-name-button .dp{
-    background-color: crimson;
-}
+
 .dp-name-button img{
    width: 12rem;
    border-radius:50%;
@@ -149,7 +141,6 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 33%, rgba(0,0,0,1) 100%);
 }
 
 .dp-name-button .name-mutual{
-    background-color: chartreuse;
     margin: 20px;
     padding: 10px;
 }
@@ -160,7 +151,6 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 33%, rgba(0,0,0,1) 100%);
     bottom: 1.5rem;
     display: flex;
     flex-direction: row;
-    background-color: yellow;
 }
 
 .friendsMessageButton .friendsButton, .messageButton{
@@ -173,7 +163,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 33%, rgba(0,0,0,1) 100%);
       border-radius: 5px;
 }
 .friendsButton, .dropdownButton{
-    background-color:rgb(149, 149, 149) ;
+    background-color:rgb(169, 166, 166);
 }
 .friendsButton i, .messageButton i{
     padding-right: 3px;
@@ -195,7 +185,6 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 33%, rgba(0,0,0,1) 100%);
 
 .second-nav{
     position:relative;
-   background-color: darkcyan;
    margin: auto;
    display: flex;
    justify-content: center;
@@ -208,7 +197,6 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 33%, rgba(0,0,0,1) 100%);
     position:absolute;
     top: 15px;
     left: 0;
-    background-color: darkblue;
 }
 .second-nav .nav2 a{
    padding: 15px;
@@ -229,44 +217,49 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 33%, rgba(0,0,0,1) 100%);
 /*-----------------------------------------Description Wall------------------------------*/
 
 .description-wall{
-    background-color: coral;
+    background-color: rgba(177, 194, 239, 0.589);
     display: flex;
    justify-content: center;
    justify-self: center;
    flex-direction: row;
    
 }
-
+.left-side{
+    width: 20vw;
+    height: fit-content;
+}
+.right-side{
+    width: 30vw;
+}
 .left-side, .right-side{
-   width: 30vw;
-   margin:5px;
+   margin:2px;
    padding: 5px;
    display: flex;
    flex-direction:column;
    border-radius:10px;
 }
 
-.left-side{
-   background-color: rgb(76, 13, 76);
-   
+.left-side .copyright{
+    padding: 5px;
+    font-size: small;
 }
 
-.right-side{
-    background-color: darkslateblue;
-}
-
+/*------------------------left side*---------------------------------*/
 .intro, .photos, .friends, .life-events{
-    background-color: cornflowerblue;
-    padding: 10px;
+    background-color: white;
+    padding: 5px;
      border-radius: 10px;
+     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .photos, .friends, .life-events{
-    background-color: chocolate;
     margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .intro-top, .friends-top, .photos-top, .events-top{
-    background-color: darkolivegreen;
     margin-bottom: 5px;
+}
+.intro-top a, .friends-top a, .photos-top a, .events-top a{
+    font-size: smaller;
 }
 .friends-top, .photos-top, .events-top{
     position: relative;
@@ -283,14 +276,12 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 33%, rgba(0,0,0,1) 100%);
 } 
 .intro .intro-top p{
     padding: 5px;
-    border-bottom: 2px solid gray;
+    border-bottom: 1px solid gray;
 }
 .intro .intro-list{
-    background-color: fuchsia;
     margin-top: 5px;
 }
 .intro-list .icon-intro{
-    background-color: honeydew;
     padding-top: 10px;
     display: flex;
    flex-direction: row;
@@ -304,21 +295,24 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 33%, rgba(0,0,0,1) 100%);
 }
 
 .friends-table{
-    background-color: darkslategrey;
     top: 10px;
     width: fit-content;
     height: fit-content;
     margin: auto;
 }
 .friends-table table tr td{
-    background-color: rgb(18, 62, 101);
-    height: 8vw;
     border: 2px solid white;
-    border-radius: 10px;
 }
-
+.friends-table table tr td img{
+    height:9vh;
+    width: 5.5vw;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
 .friendsCardDiv{
-    background-color: deepskyblue;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -326,20 +320,19 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 33%, rgba(0,0,0,1) 100%);
    padding: 10px 0;
 }
 .friends_card{
-    background-color: rgb(90, 91, 91);
     margin: 5px;
 }
 .friends_card figure img{
-    width: 120px;
-    height: 120px;
-    border-radius: 5px;
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
 }
 .friends_card figcaption{
-    margin-left: 2vw;
+    margin-left: 0.5vw;
+    font-size: small;
 }
 
 .life-events .events{
-    background-color: blue;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -350,16 +343,263 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 33%, rgba(0,0,0,1) 100%);
     display: flex;
     flex-direction: column;
     width: 12vw;
-    height: 40vh;
-    border: 2px solid white;
+    height: 30vh;
+    border: 0.5px solid rgb(169, 166, 166);
     border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin: 2px;
     padding: 5px;
 }
 .card i, .card p, .card h3{
-    background-color: darkorchid;
     width: fit-content;
     margin:auto;
 }
 .card i{
     font-size: 3rem;
+}
+
+/*------------------------right side--------------------*/
+.timeline{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+}
+.timeline .top img{
+    position:absolute;
+    top: 12px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.timeline .top{
+  height: fit-content;
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: center;
+    padding: 5px;
+
+}
+.timeline .top input{
+    justify-content: center;
+    justify-self: center;
+    margin-left: 2.5vw;
+    width: 25vw;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(194, 189, 189);
+}
+.timeline .bottom{
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: center;
+  margin-top: 10px;
+  padding: 8px 5px;
+  border-top: 1px solid grey;
+}
+.timeline .bottom .bottom-icon{
+    padding: 0 12px;
+    display: flex;
+    flex-direction: row;
+    font-weight: bolder;
+}
+.timeline .bottom .bottom-icon p{
+    padding-top: 4px;
+    padding-left: 5px;
+    font-size: small;
+}
+.timeline .bottom .bottom-icon i{
+    font-size: 1.5rem;
+}
+.bxs-photo-album{
+    color: green;
+}
+.bxs-purchase-tag{
+    color: blue;
+}
+.bx-happy-beaming{
+    color: goldenrod;
+}
+
+.post-filter{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 5px;
+    position:relative;
+    margin-top: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    height:max-content;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.post-filter div{
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    top: 6px;
+    right: 5px;
+    background-color: rgb(149, 149, 149);
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+.post-filter div i{
+    font-size: 1.5rem;
+    padding-right: 5px;
+}
+.post-filter h4{
+    font-size: large;
+    font-weight: bolder;
+    padding: 2px;
+}
+
+.postcards{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-top: 12px;
+    padding: 10px;
+    height: fit-content;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.postcard_top{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.postcard_top .top-right{
+    margin-left: 3.5rem;
+}
+.postcard_top .top-right p{
+    padding-top: 5px;
+    font-size:x-small;
+    font-weight: bolder;
+}
+.postcard_top .top-right h5{
+    font-weight: bolder;
+}
+.postcard_top .top-right h5 span{
+    color: gray;
+}
+.postcard_top img{
+    position:absolute;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.postcard_middle{
+  margin-top: 10px;
+}
+.postcard_middle img{
+    margin-top: 10px;
+    width: 28vw;
+}
+.postcard_middle p{
+    font-size: small;
+    font-weight: bolder;
+}
+
+.postcard_bottom{
+    font-size: small;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+.pc_bottom1{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 5px;
+}
+.likedby{
+    display: flex;
+    flex-direction: row;
+}
+.likedby i{
+    color: blue;
+    margin-right: 5px;
+    font-size: medium;
+}
+.commentedby{
+    color: grey;
+    position:absolute;
+    right: 5px;
+}
+.commentedby i{
+    font-size: medium;
+}
+.commentedby span{
+    color: black;
+}
+.pc_bottom2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-self: center;
+    padding: 10px;
+    border-top: 1px solid gray;
+    border-bottom:  1px solid gray;
+}
+.pc_bottom2 .like, .comment, .share{
+    display: flex;
+    flex-direction: row;
+    padding: 0 3rem;
+}
+.pc_bottom2 .like i, .comment i, .share i{
+   
+    padding-right: 10px;
+}
+.pc_bottom2 .like i{
+    color: blue;
+}
+.pc_bottom3{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    height: fit-content;
+}
+.pc_bottom3 img{
+    position:absolute;
+    top: 10px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.input-emoji{
+    background-color: rgb(194, 189, 189);
+    justify-content: center;
+    justify-self: center;
+    margin-left: 3vw;
+    width: 25vw;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+}
+.input-emoji input{
+    background-color: rgb(194, 189, 189);
+    width: 15rem;
+    border: 0;
+}
+.input-emoji i{
+    font-size: 1rem;
 }
