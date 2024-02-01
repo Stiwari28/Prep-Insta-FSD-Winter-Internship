@@ -1,0 +1,21 @@
+#home
+  - Hello Welcome to my portfolio
+  -#resume
+#about
+  -two divs 2:3
+  -div1 Name, age, Qualifications, Post, Place
+  -div2 4 blocks(table)
+#education
+   h1 -MyEducation heading
+   div/table - Education in one row inside blocks with right border
+#skills
+    -skill bars
+#portfolio
+   - project cards
+#hobbies
+    - blocks
+#certifications
+    - slider
+#contact(Forms and address)
+
+#connect( Social footer)
