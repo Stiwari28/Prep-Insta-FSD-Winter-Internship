@@ -16,6 +16,7 @@ body{
 .mainnav{
     position: fixed;
     background-color:white;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     display: flex;
     flex-direction: row;
     height:10vh;
@@ -248,8 +249,8 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 26%, rgba(0,0,0,1) 77%);
 .intro, .photos, .friends, .life-events{
     background-color: white;
     padding: 5px;
-     border-radius: 10px;
-     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 .photos, .friends, .life-events{
     margin-top: 10px;
