@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Product Listing Page</title>
+</head>
+<body>
+    <header>
+        <nav class="top">
+        <div class="top-left">
+            <h1>Dukaan</h1>
+        </div>
+        <div class="top-middle">
+            <div class="drop-down">
+                <select id="category">
+                        <option selected="selected" current="true" >All Categories</option>
+                        <option >Appliances</option>
+                        <option >Baby</option>
+                        <option >Beauty</option>
+                        <option >Books</option>
+                        <option >Car &amp; Motorbike</option>
+                        <option >Clothing &amp; Accessories</option>
+                        <option >Computers &amp; Accessories</option>
+                        <option >Electronics</option>
+                        <option >Furniture</option>
+                        <option >Garden &amp; Outdoors</option>
+                        <option >Gift Cards</option>
+                        <option >Grocery &amp; Gourmet Foods</option>
+                        <option >Health &amp; Personal Care</option>
+                        <option >Home &amp; Kitchen</option>
+                        <option >Industrial &amp; Scientific</option>
+                        <option >Jewelry</option>
+                        <option >Luggage &amp; Bags</option>
+                        <option >Luxury Beauty</option>
+                        <option >Movies &amp; TV Shows</option>
+                        <option >Music</option>
+                        <option >Musical Instruments</option>
+                        <option >Office Products</option>
+                        <option >Pet Supplies</option>
+                        <option >Shoes &amp; Handbags</option>
+                        <option >Software</option>
+                        <option >Video Games</option>
+                        <option >Watches</option>
+                </select>
+            </div>
+            <div class="search-field">
+                <input type="text" placeholder="Search Here">
+            </div>
+            <div class="search-icon">
+                <i class='bx bx-search-alt'></i>
+            </div>
+        </div>
+        <div class="top-right">
+            <p>Returns & Orders</p>
+            <div class="icon-cart">
+                <i class='bx bx-cart'></i>
+                <p>Cart</p>
+            </div>
+        </div>
+        
+        </nav>
+        <nav class="top1">
+            <a href="">All</a>
+            <a href="">Today's deal</a>
+            <a href=""> Gift Ideas</a>
+            <a href=""> Best Sellers</a>
+            <a href="">New Releases</a>
+            <a href="">Books</a>
+            <a href="">Sell</a>
+            <a href="">Gift cards</a>
+            <a href="">Fashion</a>
+            <a href="">Coupons</a>
+        </nav>
+        <nav class="top2">
+            <a href="">Electronics</a>
+            <a href="">Mobiles & Accessories</a>
+            <a href="">Laptops & Accessories</a>
+            <a href="">TV & Home Entertainment</a>
+            <a href="">Audio</a>
+            <a href="">Cameras</a>
+            <a href="">Computer Peripherals</a>
+            <a href="">Smart Technology</a>
+            <a href="">Musical Instruments</a>
+            <a href="">Office & Stationary</a>
+        </nav>
+        <nav class="bottom">
+            <h5>1-30 of 30 results for <span>"Sony Headphones"</span></h5>
+            <div class="sortBy">
+                sort by:
+                <select id="category">
+                    <option selected="selected" current="true" >Featured</option>
+                    <option >Price: Low to High</option>
+                    <option >Price: High to Low</option>
+                    <option >Newest Arrivals</option>
+                </select>    
+            </div>
+        </nav>
+    </header>
+    <section>
+    <div class="sidenav">
+       <div>
+        <h3>Customers Reviews</h3>
+        <p><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bx-star'></i>& Up</p>
+        <p><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i>& Up</p>
+        <p><i class='bx bxs-star'></i><i class='bx bxs-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i>& Up</p>
+        <p><i class='bx bxs-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i><i class='bx bx-star'></i>& Up</p>
+       </div>
+       <div>
+        <h4>Brands</h4>
+        <p><input type="checkbox"> Sony</p>
+       </div>
+       <div>
+        <h4>Pay On Delivery</h4>
+        <p><input type="checkbox">Eligible for Pay On Delivery</p>
+       </div>
+       <div>
+        <h4>Item Condition</h4>
+        <p>New</p>
+       </div>
+       <div>
+        <h4>Discount</h4>
+        <p>10% Off or more</p>
+        <p>25% Off or more</p>
+        <p>35% Off or more</p>
+        <p>50% Off or more</p>
+        <p>60% Off or more</p>
+        <p>70% Off or more</p>
+       </div>
+       <div>
+        <h4>Availability</h4>
+        <p>Include Out of Stock</p>
+       </div>
+    </div>
+    <div class="maindiv">
+          <div class="rowsection">
+            <div class="productCard">
+                 <img src="./assets/1.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/2.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/3.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/4.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/5.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+          </div>
+          <div class="rowsection">
+            <div class="productCard">
+                 <img src="./assets/6.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/7.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/8.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/9.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/10.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+          </div>
+          <div class="rowsection">
+            <div class="productCard">
+                 <img src="./assets/11.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/12.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/13.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/14.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/15.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+          </div>
+          <div class="rowsection">
+            <div class="productCard">
+                 <img src="./assets/16.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/17.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/18.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/19.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/20.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+          </div>
+          <div class="rowsection">
+            <div class="productCard">
+                 <img src="./assets/21.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/22.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/23.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/24.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/25.webp" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+          </div>
+          <div class="rowsection">
+            <div class="productCard">
+                 <img src="./assets/27.webp" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/28.webp" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/29.webp" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/30.webp" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/31.webp" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+          </div>
+          <div class="rowsection">
+            <div class="productCard">
+                 <img src="./assets/32.webp" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/33.webp" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/34.webp" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/35.webp" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/36.webp" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+          </div>
+          <div class="rowsection">
+            <div class="productCard">
+                 <img src="./assets/37.webp" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/38.webp" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/39.webp" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/40.webp" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/41.webp" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+          </div>
+          <div class="rowsection">
+            <div class="productCard">
+                 <img src="./assets/42.webp" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/43.webp" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/44.webp" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/45.webp" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/46.webp" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+          </div>
+          <div class="rowsection">
+            <div class="productCard">
+                 <img src="./assets/4" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/47.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/48.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/49.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="productCard">
+                 <img src="./assets/50.jpg" alt="Product Image">
+                <h3>Product Title</h3>
+                  <p class="rating">Rating</p>
+                <p class="price">$99.99</p>
+                <button>Add to Cart</button>
+            </div>
+          </div>
+    </div>
+
+    </section>
+</body>
+</html>
