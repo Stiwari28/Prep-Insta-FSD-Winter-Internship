@@ -14,5 +14,10 @@ Here are the projects I developed during the Winter Internship provided by PrepI
 - Proficiency Level:- Intermediate
 - Prerequisite:- Good understanding of HTML and CSS 
 - Technologies used:- HTML and CSS
-- Description:- User description page (Facebook user's page) 
+- Description:- User description page (Facebook user's page)
+## 4. [Instagram-Image Gallery :city_sunset:](https://stiwari28.github.io/Prep-Insta-FSD-Winter-Internship/Instagram-ImageGallery/)
+- Proficiency Level:- Intermediate
+- Prerequisite:- Good understanding of HTML and CSS 
+- Technologies used:- HTML and CSS
+- Description:- Image Gallery (Instagram User's Page)
 
