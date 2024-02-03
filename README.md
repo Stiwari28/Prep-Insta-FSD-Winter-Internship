@@ -17,7 +17,12 @@ Here are the projects I developed during the Winter Internship provided by PrepI
 - Description:- User description page (Facebook user's page)
 ## 4. [Instagram-Image Gallery :city_sunset:](https://stiwari28.github.io/Prep-Insta-FSD-Winter-Internship/Instagram-ImageGallery/)
 - Proficiency Level:- Intermediate
-- Prerequisite:- Good understanding of HTML and CSS 
+- Prerequisite:- Good understanding of HTML, CSS, and JS 
 - Technologies used:- HTML and CSS
 - Description:- Image Gallery (Instagram User's Page)
+## 5. [Amazon-Product Listing :shopping_cart:](https://stiwari28.github.io/Prep-Insta-FSD-Winter-Internship/Amazon-ProductListing/)
+- Proficiency Level:- Intermediate
+- Prerequisite:- Good understanding of HTML, CSS, and JS 
+- Technologies used:- HTML, CSS, and JS
+- Description:- Product Listing page (with sorting filter)
 
