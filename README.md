@@ -25,7 +25,7 @@ Here are the projects I developed during the Winter Internship provided by PrepI
 - Prerequisite:- Good understanding of HTML, CSS, and JS 
 - Technologies used:- HTML, CSS, and JS
 - Description:- Product Listing page (with sorting filter)
-## 6. [Portfolio Website(Another) :nerd_face:](https://stiwari28.github.io/Prep-Insta-FSD-Winter-Internship/Portfolio-2)
+## 6. [Portfolio Website(Another) :nerd_face:](https://stiwari28.github.io/Prep-Insta-FSD-Winter-Internship/Portfolio-2/)
 - Proficiency Level:- Intermediate 
 - Prerequisite:- understanding of HTML and CSS 
 - Technologies used:- HTML and CSS
