@@ -22,6 +22,11 @@ bookDetailsForm.addEventListener('submit',(e)=>{
     } else {
         alert('Please fill in all fields.');
     }
+
+    document.getElementById("bookName").value = "";
+    document.getElementById("authorName").value = "";
+    document.getElementById("pages").value = "";
+    document.getElementById("genre").value = "";
 })
 
 function displayBooks(books=library){
@@ -47,4 +52,6 @@ searchForm.addEventListener('submit',(e)=>{
     const searchbook=document.getElementById('searchbook').value.toLowerCase();
     let searchResult = library.filter(book => book.title.toLowerCase().includes(searchbook));
     displayBooks(searchResult);
+
+    document.getElementById("searchbook").value = "";
 })
