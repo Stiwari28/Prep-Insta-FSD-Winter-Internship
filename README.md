@@ -30,4 +30,8 @@ Here are the projects I developed during the Winter Internship provided by PrepI
 - Prerequisite:- understanding of HTML and CSS 
 - Technologies used:- HTML and CSS
 - Description:- My Portfolio is a personal information page.
-
+## 6. [Library_Management_System :books:](https://stiwari28.github.io/Prep-Insta-FSD-Winter-Internship/Library_Management_System/)
+- Proficiency Level:- Intermediate 
+- Prerequisite:- understanding of HTML, CSS, and JS
+- Technologies used:- HTML, CSS, and JS
+- Description:- A system to add books along with other details. Users can also search for books using the book title.
