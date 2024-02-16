@@ -1,0 +1,87 @@
+
+body{
+    background-color: azure;
+}
+
+#maindiv{
+    margin: 0 auto;
+    max-width: 80%;
+    background-color: white;
+    padding: 20px;
+}
+
+#pageHeading{
+    text-align: center;
+}
+
+#formdiv{
+    margin: auto;
+    max-width: 70%;
+}
+
+#bookDetailForm{
+    padding-bottom: 20px;
+}
+
+#bookDetailForm input{
+    border-style: none;
+    border-bottom: 1px solid rgb(182, 222, 222);
+    border-left: 1px solid rgb(182, 222, 222);
+    margin: 10px;
+}
+#bookName, #authorName{
+    width: 20%;
+}
+#pages, #genre{
+    width: 10%;
+}
+input:focus {
+    outline: none;
+}
+
+#detailsbtn{
+    background-color:rgb(182, 222, 222) ;
+    border: none;
+    border-radius:5px;
+    padding: 5px;
+    width: 20%;
+}
+
+#searchForm{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin: auto;
+}
+
+#searchbook{
+    margin-bottom: 10px;
+    border-style: none;
+    border-bottom: 1px solid rgb(182, 222, 222);
+    border-left: 1px solid rgb(182, 222, 222);
+}
+
+#searchbtn{
+    background-color:rgb(182, 222, 222) ;
+    border: none;
+    border-radius:5px;
+    padding: 5px;
+}
+
+#responsediv{
+    margin-top: 20px;
+    border-top: 1px solid black;
+}
+
+#bookDivId{
+    border: none;
+    border-radius: 10px;
+    background-color:rgb(182, 222, 222) ;
+    margin-top: 20px;
+    padding: 10px;
+    width: 80%;
+    height: 30%;
+}
+p{
+    padding: 5px;
+}
