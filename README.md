@@ -39,4 +39,9 @@ Here are the projects I developed during the Winter Internship provided by PrepI
 - Proficiency Level:- Intermediate 
 - Prerequisite:- Good understanding of HTML, CSS, and JS
 - Technologies used:- HTML, CSS, and JS
-- Description:- An application that generator random quotes on every click.
+- Description:- An application that generates random quotes on every click.
+## 9.[Employee Management System :man_office_worker::woman_office_worker:](https://stiwari28.github.io/Prep-Insta-FSD-Winter-Internship/Employee_Management_System/) 
+- Proficiency Level:- Intermediate 
+- Prerequisite:- Good understanding of HTML, CSS, and JS
+- Technologies used:- HTML, CSS, and JS
+- Description:- This is a basic employee management system.
