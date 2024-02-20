@@ -45,3 +45,8 @@ Here are the projects I developed during the Winter Internship provided by PrepI
 - Prerequisite:- Good understanding of HTML, CSS, and JS
 - Technologies used:- HTML, CSS, and JS
 - Description:- This is a basic employee management system.
+## 10.[Quiz Application :open_book:](https://stiwari28.github.io/Prep-Insta-FSD-Winter-Internship/Quiz_Application/)
+- Proficiency Level:- Intermediate 
+- Prerequisite:- Good understanding of HTML, CSS, and JS
+- Technologies used:- HTML, CSS, and JS
+- Description:- This is a Quiz Application.
