@@ -3,30 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <title>To-Do List</title>
 </head>
 <body>
     <div id="container">
         <div id="heading">
             <h1>To-Do-List</h1>
         </div>
-        <div id="categories">
-            <h2>Categories</h2>
-            <ul id="category">
-
-            </ul>
-        </div>
-        <div id="tasks">
-            <div id="top">
-
+        <div id="maincontent">
+            <div id="categories">
+                <h2>Categories</h2>
+                <ul id="categorieslist">
+                      <!--------------------Category List will appear here---------------->
+                </ul>
             </div>
-            <div id="notes">
-
-            </div>
-            <div id="bottom">
-                
+            <div id="tasks">
+                <div id="top">
+                    <div id="top1">
+                        <input type="text" id="newcategoryinput" placeholder="Enter New Category">
+                    <button id="addcategoriesbtn"> Add Category</button>
+                    </div>
+                    <div id="top2">
+                        <input type="text" id="searchcategoryinput" placeholder="Search Category">
+                    <button id="searchcategoriesbtn"> Search Category</button>
+                    </div>
+                </div>
+                <div id="notes">
+                    <ul id="noteslist">
+                        <!-------------------Notes list will appear here------------------>
+                    </ul>
+                    <textarea name="notecontent" id="notecontent" cols="30" rows="10"></textarea>
+                </div>
+                <div id="bottom">
+                    <button id="addnotesbtn">Add Note</button>
+                    <button id="editnotesbutton">Edit Note</button>
+                    <button id="deletenotesbutton">Delete Note</button>
+                </div>
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
