@@ -9,7 +9,7 @@ const addnotesbtn=document.getElementById('addnotesbtn');
 const editnotesbutton=document.getElementById('editnotesbutton');
 const deletenotesbutton=document.getElementById('deletenotesbutton');
 
-let categories=['Personal', 'Work', 'Plans'];
+let categories=['Personal', 'Work'];
 let currentCategory='Personal';
 
 let notes={
@@ -33,9 +33,60 @@ displayCategories();
 
 function displaynotes(category){
     noteslist.innerHTML="";
-    notes[category].forEach(notes=>{
+    notes[category].forEach(note=>{
         const li=document.createElement('li');
-        li.textContent=notes;
+        li.textContent=note;
+        li.addEventListener('click',()=>{
+            notecontent.value=note;
+            notecontent.dataset.category=category;
+            notecontent.dataset.note=note;
+        })
         noteslist.appendChild(li);
     })
 }
+
+
+addcategoriesbtn.addEventListener('click', ()=>{
+    const newcategory=newcategoryinput.value.trim();
+    if(newcategory!==''){
+        categories.push(newcategory);
+        notes[newcategory]=[];
+    displayCategories();
+    newcategoryinput.value="";
+    }
+    else{
+        alert("Enter new category before adding");
+    }
+});
+
+addnotesbtn.addEventListener('click', ()=>{
+    const newnote=notecontent.value.trim();
+    if(newnote!==''){
+     notes[currentCategory].push(newnote);
+     displaynotes(currentCategory);
+     console.log(notes[currentCategory]);
+     notecontent.value="";
+    }
+    else{
+     alert("Enter new note before adding");
+ }
+ });
+ 
+ 
+editnotesbutton.addEventListener('click',()=>{
+    const category=notecontent.dataset.category;
+    const oldNotes=notecontent.dataset.note;
+    const newNotes=notecontent.value.trim();
+    console.log(category);
+    console.log(oldNotes);
+    console.log(newNotes);
+
+    if(category && oldNotes && newNotes !==''){
+        const index=notes[category].indexOf(oldNotes);
+        if(index!==-1){
+            notes[category].index=newNotes;
+            displaynotes(category);
+            notecontent.value='';
+        }
+    }
+})
