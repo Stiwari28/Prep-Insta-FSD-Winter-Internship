@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Anta&family=Barriecito&family=Dancing+Script:wght@400..700&family=Fredoka:wght@300..700&family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+body{
+    margin: 20px;
+    padding: 0px;
+    font-family: "Barriecito";
+  font-weight: 400;
+  font-style: normal;
+    background-color: rgb(255, 219, 205);
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    background-color:lightsalmon;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#jokeSection{
+    background-color: white;
+    border-radius: 5px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+h2,h5{
+    padding: 10px;
+    color: black;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+}
