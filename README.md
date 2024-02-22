@@ -59,4 +59,9 @@ Here are the projects I developed during the Winter Internship provided by PrepI
 - Proficiency Level:- Intermediate 
 - Prerequisite:- Intermediate understanding of HTML, CSS, and JS
 - Technologies used:- HTML, CSS, and JS
-- Description: An application to add tasks category-wise and make required changes. Also, users can search categories.
+- Description: An application to add tasks category-wise and make required changes. Also, users can search for categories. 
+## 13.[Joke Generator :laughing:](https://stiwari28.github.io/Prep-Insta-FSD-Winter-Internship/JokeGenerator/)
+- Proficiency Level:- Intermediate 
+- Prerequisite:- Intermediate understanding of HTML, CSS, and JS
+- Technologies used:- HTML, CSS, and JS
+- Description: This is a Random Joke Generator created by using API.
