@@ -54,4 +54,9 @@ Here are the projects I developed during the Winter Internship provided by PrepI
 - Proficiency Level:- Intermediate 
 - Prerequisite:- Good understanding of HTML, CSS, and JS
 - Technologies used:- HTML, CSS, and JS
-- Description:- Task manager app with add task and delete task function.
+- Description:- Task manager app with add task and delete task function. 
+## 12.[To Do List:bookmark_tabs:](https://stiwari28.github.io/Prep-Insta-FSD-Winter-Internship/To-Do-List/)
+- Proficiency Level:- Intermediate 
+- Prerequisite:- Intermediate understanding of HTML, CSS, and JS
+- Technologies used:- HTML, CSS, and JS
+- Description: An application to add tasks category-wise and make required changes. Also, users can search categories.
