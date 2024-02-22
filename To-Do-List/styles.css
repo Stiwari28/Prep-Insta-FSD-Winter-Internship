@@ -22,9 +22,23 @@ body{
 }
 
 #categories{
+    position: relative;
     display: flex;
     flex-direction: column;
-} 
+}
+
+#showAllCategory{
+    position: absolute;
+    bottom: 20px;
+    background-color: dodgerblue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    align-self: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
 #categories h2{
     text-align: center;
 }

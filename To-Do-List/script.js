@@ -8,6 +8,7 @@ const notecontent=document.getElementById('notecontent');
 const addnotesbtn=document.getElementById('addnotesbtn');
 const editnotesbutton=document.getElementById('editnotesbutton');
 const deletenotesbutton=document.getElementById('deletenotesbutton');
+const showAllCategory=document.getElementById('showAllCategory');
 
 let categories=['Personal', 'Work'];
 let currentCategory='Personal';
@@ -31,6 +32,7 @@ function displayCategories(){
 }
 displayCategories();
 
+
 function displaynotes(category){
     noteslist.innerHTML="";
     notes[category].forEach(note=>{
@@ -40,11 +42,16 @@ function displaynotes(category){
             notecontent.value=note;
             notecontent.dataset.category=category;
             notecontent.dataset.note=note;
+            editnotesbutton.style.display='inline';
         })
         noteslist.appendChild(li);
     })
 }
 
+
+showAllCategory.addEventListener('click',()=>{
+    displayCategories();
+})
 
 addcategoriesbtn.addEventListener('click', ()=>{
     const newcategory=newcategoryinput.value.trim();
@@ -59,34 +66,65 @@ addcategoriesbtn.addEventListener('click', ()=>{
     }
 });
 
+searchcategoriesbtn.addEventListener('click', () => {
+    const searchCategory = searchcategoryinput.value.trim().toLowerCase();
+    if (searchCategory !== '') {
+        const matchingCategories = categories.filter(category => {
+            return category.toLowerCase().includes(searchCategory);
+        });
+        if (matchingCategories.length > 0) {
+            const originalCategories = [...categories];
+            categories = matchingCategories;
+            displayCategories();
+            categories = originalCategories;
+            searchcategoryinput.value='';
+        } else {
+            alert("No matching categories found.");
+        }
+    } else {
+        alert("Please enter a search query.");
+    }
+});
+
+
+
 addnotesbtn.addEventListener('click', ()=>{
     const newnote=notecontent.value.trim();
     if(newnote!==''){
      notes[currentCategory].push(newnote);
      displaynotes(currentCategory);
-     console.log(notes[currentCategory]);
      notecontent.value="";
     }
     else{
      alert("Enter new note before adding");
  }
  });
- 
- 
+
 editnotesbutton.addEventListener('click',()=>{
     const category=notecontent.dataset.category;
     const oldNotes=notecontent.dataset.note;
     const newNotes=notecontent.value.trim();
-    console.log(category);
-    console.log(oldNotes);
-    console.log(newNotes);
 
     if(category && oldNotes && newNotes !==''){
         const index=notes[category].indexOf(oldNotes);
         if(index!==-1){
-            notes[category].index=newNotes;
+            notes[category][index]=newNotes;
+            displaynotes(category);
+            notecontent.value='';
+            editnotesbutton.style.display='none';
+        }
+    }
+});
+
+deletenotesbutton.addEventListener('click',()=>{
+    const category=notecontent.dataset.category;
+    const note= notecontent.dataset.note;
+    if(category&&note){
+        const index=notes[category].indexOf(note);
+        if(index!==-1){
+            notes[category].splice(index,1);
             displaynotes(category);
             notecontent.value='';
         }
     }
-})
+});
