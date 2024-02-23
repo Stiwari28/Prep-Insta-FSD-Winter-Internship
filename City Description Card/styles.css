@@ -1,0 +1,36 @@
+body{
+    margin: 10px;
+    padding: 0;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h1{
+    background-color: darksalmon;
+    color: black;
+    padding: 10px;
+    
+}
+
+.card{
+    width: 30%;
+    height: 25vw;
+    margin: 15px;
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.575);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.card img{
+    width: 15rem;
+}
+
+#cards_section{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:  darksalmon;
+}
