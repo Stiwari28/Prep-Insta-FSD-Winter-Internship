@@ -64,4 +64,9 @@ Here are the projects I developed during the Winter Internship provided by PrepI
 - Proficiency Level:- Intermediate 
 - Prerequisite:- Intermediate understanding of HTML, CSS, and JS
 - Technologies used:- HTML, CSS, and JS
-- Description: This is a Random Joke Generator created by using API.
+- Description: This is a Random Joke Generator created by using API. 
+## 14.[City Description Card :cityscape:](https://stiwari28.github.io/Prep-Insta-FSD-Winter-Internship/CityDescriptionCard/)
+- Proficiency Level:- Intermediate 
+- Prerequisite:- Intermediate understanding of HTML, CSS, and JS
+- Technologies used:- HTML, CSS, and JS
+- Description: This is a City Description card created by using API.
