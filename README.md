@@ -70,5 +70,5 @@ Here are the projects I developed during the Winter Internship provided by PrepI
 - Prerequisite:- Intermediate understanding of HTML, CSS, and JS
 - Technologies used:- HTML, CSS, and JS
 - Description: This is a City Description card created by using API.
-## 15. [Student Description DB :man_student: :woman_student:(https://github.com/Stiwari28/Prep-Insta-FSD-Winter-Internship/blob/main/MongoDB%20Database/index.js)
+## 15. [Student Description DB :man_student: :woman_student:](https://github.com/Stiwari28/Prep-Insta-FSD-Winter-Internship/blob/main/MongoDB%20Database/index.js)
 -MongoDB , MongoDB compass and NodeJS
