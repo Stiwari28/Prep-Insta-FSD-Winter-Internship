@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food and Nutrition</title>
+</head>
+<body>
+    <h1>Food and Nutrition Data</h1>
+    <table id="FoodTable" border="1">
+        <thead>
+            <tr>
+                <td>Item_Name</td>
+                <td>Category</td>
+                <td>Description</td>
+                <td>Nutritional_Information</td>
+                <td>Serving_size</td>
+                <td>Allergens</td>
+                <td>Ingredients</td>
+                <td>Preparation_methods</td>
+                <td>Certifications</td>
+                <td>CountryOfOrigin</td>
+                <td>Manufacturer</td>
+                <td>DietaryRestrictions</td>
+                <td>HealthBenefits</td>
+                <td>BestPractices</td>
+                <td>Action</td>
+            </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+    </table>
+
+    <script>
+        fetch('http://localhost:3200/getFoodData')
+        .then((res)=>res.json())
+        .then((data)=>{
+            console.log('Fetched Data', data);
+            const tableBody=document.getElementById('tableBody');
+            tableBody.innerHTML='',
+            data.forEach(food => {
+                const row= document.createElement('tr');
+                row.innerHTML=`
+                <td>${food.item_Name}</td>
+                <td>${food.category}</td>
+                <td>${food.description}</td>
+                <td>${food.nutritional_Information}</td>
+                <td>${food.serving_size}</td>
+                <td>${food.allergens}</td>
+                <td>${food.ingredients}</td>
+                <td>${food.preparation_methods}</td>
+                <td>${food.certifications}</td>
+                <td>${food.countryOfOrigin}</td>
+                <td>${food.manufacturer}</td>
+                <td>${food.dietaryRestrictions}</td>
+                <td>${food.healthBenefits}</td>
+                <td>${food.bestPractices}</td>
+                <td><button onclick="editRow(this)">Edit</button>
+                    <button onclick="deleteRow('${food.item_Name}')">Delete</button>
+                    <button style="display: none;" onclick="saveRow(this)">Save</button>
+                    </td>
+                `
+                tableBody.appendChild(row);
+            });
+        })
+    </script>
+</body>
+</html>
