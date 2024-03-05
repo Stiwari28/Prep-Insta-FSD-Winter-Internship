@@ -46,7 +46,8 @@ app.get('/getFoodData/:item_name', async(req,res)=>{
 app.post('/foodData', async(req, res)=>{
     try{
         const addingData= new foodData(req.body);
-        console.log(addingData);
+        console.log("Wohooo!! A new food item is being added to the database" );
+        console.log(addingData.item_Name + " is added to the database.");
         const saveData= await addingData.save();
         console.log(saveData);
         res.status(201).json(saveData);
@@ -55,6 +56,28 @@ app.post('/foodData', async(req, res)=>{
         console.error(e);
     }
 })
+
+//delete date from backend
+
+app.delete('/getFoodData/:item_name', async(req,res)=>{
+    const item_Name=req.params.item_name;
+    try{
+    const deletedRecord=await foodData.findOneAndDelete({item_Name})
+    console.log(item_Name + ' is deleted from the database');
+    if(!deletedRecord){
+     return res.status(400).json({error: 'Food item not found'});
+    }
+    res.status(200).json(deletedRecord)
+ }
+ catch(error){
+     console.error(error);
+     res.status(500).json({error: 'Internal server error'});
+ }
+ })
+
+//edit data from backend
+
+
 
 app.listen(port, ()=>{
     console.log(`Port Number ${port}`);
