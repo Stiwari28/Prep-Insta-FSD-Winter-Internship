@@ -27,10 +27,10 @@ app.get('/getFoodData', async(req,res)=>{
 
 //find specific food detail by its name
 
-app.get('/getFoodData/:item_name', async(req,res)=>{
-    const item_Name=req.params.item_name;
+app.get('/getFoodData/:id', async(req,res)=>{
+    const id=req.params.id;
     try{
-        const oneFoodData=await foodData.findOne({item_Name: item_Name});  //data of only one parameter
+        const oneFoodData=await foodData.findOne({id:id});  //data of only one parameter
        if(!oneFoodData){
         return res.status(400).json({error: 'Food Not Found'})
        }
@@ -57,13 +57,37 @@ app.post('/foodData', async(req, res)=>{
     }
 })
 
-//delete date from backend
+//Update data in the database
 
-app.delete('/getFoodData/:item_name', async(req,res)=>{
-    const item_Name=req.params.item_name;
+app.put('/updateFoodData/:id', async(req, res)=>{
+    const id=req.params.id;
+    delete id._id
+    const newData=req.body;
+    delete newData._id;
+    console.log("Received request to update data with ID:", id);
+    console.log("New data:", newData);
     try{
-    const deletedRecord=await foodData.findOneAndDelete({item_Name})
-    console.log(item_Name + ' is deleted from the database');
+     const updatedData=await foodData.findOneAndUpdate({id:id} ,{ $set: newData }, { new:true});
+     if(!updatedData){
+        return res.status(404).json({ error: 'Food item not found' });
+    }
+    console.log(updatedData.item_Name + " is now updated");
+    res.status(200).json(updatedData);
+    }
+    catch(error){
+        console.error(error);
+        res.status(500).json({error: 'Internal server error'});
+    }
+})
+
+//delete date from the database
+
+app.delete('/deleteFoodData/:id', async(req,res)=>{
+    const id=req.params.id;
+    try{
+    const deletedRecord=await foodData.findOneAndDelete({id})
+    
+    console.log('One item is deleted from the database');
     if(!deletedRecord){
      return res.status(400).json({error: 'Food item not found'});
     }
@@ -75,7 +99,6 @@ app.delete('/getFoodData/:item_name', async(req,res)=>{
  }
  })
 
-//edit data from backend
 
 
 

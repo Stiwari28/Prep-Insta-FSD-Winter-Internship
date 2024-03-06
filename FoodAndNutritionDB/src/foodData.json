@@ -1,5 +1,6 @@
 [
     {
+        "id":"1",
         "item_Name": "Apple",
         "category": "Fruit",
         "description": "A delicious and nutritious fruit",
@@ -17,6 +18,7 @@
     },
 
     {
+        "id":"2",
         "item_Name": "Chicken Breast",
         "category": "Meat",
         "description": "Lean protein source",
@@ -34,6 +36,7 @@
     },
     
     {
+        "id":"3",
         "item_Name": "Spinach",
         "category": "Vegetable",
         "description": "Nutrient-rich leafy green",
@@ -51,6 +54,7 @@
     },
     
     {
+        "id":"4",
         "item_Name": "Salmon",
         "category": "Seafood",
         "description": "Fatty fish with omega-3 fatty acids",
@@ -67,6 +71,7 @@
         "bestPractices": "Cook until internal temperature reaches 145°F"
     },
     {
+        "id":"5",
         "item_Name": "Quinoa",
         "category": "Grain",
         "description": "Nutrient-rich whole grain",
@@ -84,6 +89,7 @@
     },
 
     {
+        "id":"6",
         "item_Name": "Yogurt",
         "category": "Dairy",
         "description": "Fermented dairy product",
@@ -101,6 +107,7 @@
     },
     
     {
+        "id":"7",
         "item_Name": "Banana",
         "category": "Fruit",
         "description": "Naturally sweet and nutritious fruit",
@@ -116,24 +123,8 @@
         "healthBenefits": "High in potassium",
         "bestPractices": "Eat when ripe"
     },
-    
     {
-        "item_Name": "Broccoli",
-        "category": "Vegetable",
-        "description": "Nutrient-rich cruciferous vegetable",
-        "nutritional_Information": "Calories: 31, Carbohydrates: 6g, Fiber: 2g, Vitamin C: 90%",
-        "serving_size": 1,
-        "allergens": "None",
-        "ingredients": "Broccoli",
-        "preparation_methods": "Steamed",
-        "certifications": "Organic",
-        "countryOfOrigin": "USA",
-        "manufacturer": "Farm Fresh Produce",
-        "dietaryRestrictions": "None",
-        "healthBenefits": "Anti-inflammatory properties",
-        "bestPractices": "Cook lightly to retain nutrients"
-    },
-    {
+        "id":"8",
         "item_Name": "Almonds",
         "category": "Nuts",
         "description": "Nutrient-dense tree nuts",
@@ -150,6 +141,7 @@
         "bestPractices": "Store in a cool, dry place"
     },
     {
+        "id":"9",
         "item_Name": "Brown Rice",
         "category": "Grain",
         "description": "Whole grain rice with bran intact",
@@ -166,22 +158,7 @@
         "bestPractices": "Rinse before cooking"
     },
     {
-        "item_Name": "Greek Yogurt",
-        "category": "Dairy",
-        "description": "Thick and creamy yogurt",
-        "nutritional_Information": "Calories: 100, Protein: 10g, Carbohydrates: 4g, Calcium: 15%",
-        "serving_size": 1,
-        "allergens": "Dairy",
-        "ingredients": "Milk, Live active cultures",
-        "preparation_methods": "Cultured",
-        "certifications": "None",
-        "countryOfOrigin": "USA",
-        "manufacturer": "Dairy Co.",
-        "dietaryRestrictions": "None",
-        "healthBenefits": "Probiotics for gut health",
-        "bestPractices": "Store refrigerated"
-    },
-    {
+        "id":"10",
         "item_Name": "Avocado",
         "category": "Fruit",
         "description": "Creamy and nutritious fruit",
@@ -198,6 +175,7 @@
         "bestPractices": "Eat when ripe"
     },
     {
+        "id":"11",
         "item_Name": "Eggs",
         "category": "Dairy",
         "description": "Versatile protein source",
@@ -214,6 +192,7 @@
         "bestPractices": "Cook thoroughly"
     },
     {
+        "id":"12",
         "item_Name": "Oats",
         "category": "Grain",
         "description": "Whole grain oats",
@@ -230,6 +209,7 @@
         "bestPractices": "Cook with water or milk"
     },
     {
+        "id":"13",
         "item_Name": "Tomato",
         "category": "Vegetable",
         "description": "Juicy and flavorful fruit",
@@ -246,6 +226,7 @@
         "bestPractices": "Store"
     },
     {
+        "id":"14",
         "item_Name": "Carrot",
         "category": "Vegetable",
         "description": "Crunchy and sweet root vegetable",
@@ -262,6 +243,7 @@
         "bestPractices": "Store in the refrigerator"
     },
     {
+        "id":"15",
         "item_Name": "Turkey Breast",
         "category": "Meat",
         "description": "Lean source of protein",
@@ -278,6 +260,7 @@
         "bestPractices": "Cook until internal temperature reaches 165°F"
     },
     {
+        "id":"16",
         "item_Name": "Blueberries",
         "category": "Fruit",
         "description": "Sweet and antioxidant-rich berries",
@@ -294,6 +277,7 @@
         "bestPractices": "Refrigerate for longer freshness"
     },
     {
+        "id":"17",
         "item_Name": "Tofu",
         "category": "Plant-Based Protein",
         "description": "Versatile soy-based protein",
@@ -310,6 +294,7 @@
         "bestPractices": "Store in water in the refrigerator"
     },
     {
+        "id":"18",
         "item_Name": "Whole Wheat Bread",
         "category": "Grain",
         "description": "Nutritious bread made from whole wheat flour",
@@ -326,6 +311,7 @@
         "bestPractices": "Store in a cool, dry place"
     },
     {
+        "id":"19",
         "item_Name": "Strawberries",
         "category": "Fruit",
         "description": "Juicy and vibrant berries",
@@ -342,6 +328,7 @@
         "bestPractices": "Refrigerate for longer freshness"
     },
     {
+        "id":"20",
         "item_Name": "Cucumber",
         "category": "Vegetable",
         "description": "Cool and refreshing vegetable",
@@ -358,6 +345,7 @@
         "bestPractices": "Store in the refrigerator"
     },
     {
+        "id":"21",
         "item_Name": "Milk",
         "category": "Dairy",
         "description": "Source of calcium and vitamin D",
@@ -374,6 +362,7 @@
         "bestPractices": "Refrigerate after opening"
     },
     {
+        "id":"22",
         "item_Name": "Sweet Potato",
         "category": "Vegetable",
         "description": "Nutrient-rich root vegetable",
@@ -390,6 +379,7 @@
         "bestPractices": "Store in a cool, dry place"
     },
     {
+        "id":"23",
         "item_Name": "Honey",
         "category": "Sweetener",
         "description": "Natural sweetener produced by bees",
@@ -406,6 +396,7 @@
         "bestPractices": "Store at room temperature"
     },
     {
+        "id":"24",
         "item_Name": "Lentils",
         "category": "Legume",
         "description": "Nutritious legumes rich in protein",
@@ -422,6 +413,7 @@
         "bestPractices": "Rinse before cooking"
     },
     {
+        "id":"25",
         "item_Name": "Oranges",
         "category": "Fruit",
         "description": "Citrus fruits rich in vitamin C",
@@ -438,6 +430,7 @@
         "bestPractices": "Store at room temperature"
     },
     {
+        "id":"26",
         "item_Name": "Black Beans",
         "category": "Legume",
         "description": "Protein-rich legumes",
@@ -454,6 +447,7 @@
         "bestPractices": "Rinse before cooking"
     },
     {
+        "id":"27",
         "item_Name": "Bell Pepper",
         "category": "Vegetable",
         "description": "Colorful and crunchy vegetable",
@@ -470,6 +464,7 @@
         "bestPractices": "Store in the refrigerator"
     },
     {
+        "id":"28",
         "item_Name": "Peanuts",
         "category": "Nuts",
         "description": "Crunchy and nutritious legumes",
@@ -484,6 +479,40 @@
         "dietaryRestrictions": "None",
         "healthBenefits": "Rich in protein and healthy fats",
         "bestPractices": "Store in a cool, dry place"
+    },
+    {
+        "id":"29",
+        "item_Name": "Broccoli",
+        "category": "Vegetable",
+        "description": "Nutrient-rich cruciferous vegetable",
+        "nutritional_Information": "Calories: 31, Carbohydrates: 6g, Fiber: 2g, Vitamin C: 90%",
+        "serving_size": 1,
+        "allergens": "None",
+        "ingredients": "Broccoli",
+        "preparation_methods": "Steamed",
+        "certifications": "Organic",
+        "countryOfOrigin": "USA",
+        "manufacturer": "Farm Fresh Produce",
+        "dietaryRestrictions": "None",
+        "healthBenefits": "Anti-inflammatory properties",
+        "bestPractices": "Cook lightly to retain nutrients"
+    },
+    {
+        "id":"30",
+        "item_Name": "Greek Yogurt",
+        "category": "Dairy",
+        "description": "Thick and creamy yogurt",
+        "nutritional_Information": "Calories: 100, Protein: 10g, Carbohydrates: 4g, Calcium: 15%",
+        "serving_size": 1,
+        "allergens": "Dairy",
+        "ingredients": "Milk, Live active cultures",
+        "preparation_methods": "Cultured",
+        "certifications": "None",
+        "countryOfOrigin": "USA",
+        "manufacturer": "Dairy Co.",
+        "dietaryRestrictions": "None",
+        "healthBenefits": "Probiotics for gut health",
+        "bestPractices": "Store refrigerated"
     }
     
     
