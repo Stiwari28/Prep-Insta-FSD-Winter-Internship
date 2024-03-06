@@ -72,5 +72,5 @@ Here are the projects I developed during the Winter Internship provided by PrepI
 - Description: This is a City Description card created by using API.
 ## 15. [Student Description DB :man_student: :woman_student:](https://github.com/Stiwari28/Prep-Insta-FSD-Winter-Internship/blob/main/MongoDB%20Database/index.js)
 - MongoDB, MongoDB compass, and NodeJS 
-## 16. [Student Description DB :man_student: :woman_student:](https://github.com/Stiwari28/Prep-Insta-FSD-Winter-Internship/tree/main/FoodAndNutritionDB)
+## 16. [Food and Nutrition DB :man_student: :woman_student:](https://github.com/Stiwari28/Prep-Insta-FSD-Winter-Internship/tree/main/FoodAndNutritionDB)
 - MongoDB, MongoDB compass, and NodeJS
