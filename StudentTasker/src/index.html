@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>StudySync</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="headSection">
+        <h1>StudySync</h1>
+      <h5>Effortlessly Manage Your Tasks</h5>
+      </div>
+      <div id="courseSection">
+
+      </div>
+    </div>
+
+    <script>
+        fetch('http://localhost:4000/getCourseDetails')
+        .then((res)=>res.json())
+        .then((data)=>{
+            console.log('Fetched Data', data);
+            const courseSection=document.getElementById('courseSection');
+            courseSection.innerHTML='',
+            data.forEach(course=>{
+                const courseDiv=document.createElement('div');
+                courseDiv.innerHTML=`
+                <h4>${course.courseName}</h4>
+                <p>Course ID: ${course.courseId}</p>
+                <p>Instructor: ${course.instructor}</p>
+                <p>Start Date: ${course.startDate}</p>
+                <p>End Date: ${course.endDate}</p>
+                <p>Total Hours: ${course.totalHours}</p>
+                <p>Course Description: ${course.description}</p>
+                <a href="form.html"><button>Add Task to this course</button></a>
+                <a href="form.html"><button>Show tasks of this course</button></a>
+                `
+                courseSection.appendChild(courseDiv);
+            })
+        })
+        .catch((e)=>console.log(e))
+    </script>
+  </body>
+</html>

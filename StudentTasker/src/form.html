@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>StudySync</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>StudySync</h1>
+      <h5>Effortlessly Manage Your Tasks</h5>
+
+      <form>
+        <div id="first">
+          <label for="courseid">Course ID</label>
+        <input type="text" for="courseid" placeholder="Enter course Id" />
+        </div>
+        <div id="second">
+          <label for="taskname">Task Name</label>
+        <input type="text" for="taskname" placeholder="Enter task Name" />
+        </div>
+        <div id="third">
+          <label for="priority">Priority:</label><br />
+        <input type="radio" id="high" name="priority" value="high" />
+        <label for="high">High</label><br />
+        <input type="radio" id="medium" name="priority" value="medium" />
+        <label for="medium">Medium</label><br />
+        <input type="radio" id="low" name="priority" value="low" />
+        <label for="low">Low</label><br />
+        </div>
+        <div id="fourth">
+          <label for="deadline">Deadline</label>
+        <input type="date" for="deadline" />
+        </div>
+        <div id="fifth">
+          <label for="description">Description</label>
+        <input type="text" for="courseid" placeholder="Write Description" />
+        </div>
+        
+          <button type="submit">Add Task</button>
+       
+      </form>
+      <a href="http://localhost:4000/"><button>Go to Course Page</button></a>
+    </div>
+   
+  </body>
+</html>
