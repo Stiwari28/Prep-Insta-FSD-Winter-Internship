@@ -14,7 +14,19 @@ app.use(express.static(path.join(__dirname, '')));
 app.get('/', (req,res)=>{
     try{
         res.sendFile(path.join(__dirname, '', 'index.html'));
-        res.status(201).json(getData);
+        // res.status(201).json(getData);
+    }
+    catch(e){
+        console.error(e);
+    }
+
+})
+
+//form page
+app.get('/addTask', (req,res)=>{
+    try{
+        res.sendFile(path.join(__dirname, '', 'form.html'));
+        // res.status(201).json(getData);
     }
     catch(e){
         console.error(e);
@@ -36,13 +48,32 @@ app.get('/getCourseDetails', async(req,res)=>{
 
 app.get('/getTaskDetails', async(req,res)=>{
     try{
-        const getData= await taskModel.find({});
-        res.status(201).json(getData);
+        const getTaskData= await taskModel.find({});
+        res.status(201).json(getTaskData);
     }
     catch(e){
         console.error(e);
     }
 })
+
+app.get('/getTaskDetails/:id', async(req,res)=>{
+    const id=req.params.id;
+    console.log(id);
+    try{
+        const getOneData= await taskModel.find({courseId:id});
+        
+        // res.status(201).json(getOneData);
+        if (!getOneData || getOneData.length === 0) { // Check if any tasks are found
+            return res.status(404).json({ error: 'Tasks Not Found' });
+        }
+           res.status(200).json(getOneData)
+    }
+    catch(e){
+        console.error(e);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+})
+
 
 //post data to the database
 
@@ -74,6 +105,27 @@ app.post('/taskDetails', async(req, res)=>{
     }
 })
 
+
+//delete tasks
+
+app.delete('/deleteTask/:taskName', async(req,res)=>{
+    const taskName=req.params.taskName;
+    console.log(taskName);
+    try{
+        const deleteTask= await taskModel.findOneAndDelete({taskName});
+        console.log(deleteTask.taskName + " is successfully deleted from the database.");
+        // res.status(201).json(getOneData);
+        if (!deleteTask) { // Check if any tasks are found
+            return res.status(404).json({ error: 'Tasks not found' });
+        }
+        
+           res.status(200).json(deleteTask)
+    }
+    catch(e){
+        console.error(e);
+        res.status(500).json({ error: 'Internal Server Error' });
+    }
+})
 app.listen(port, ()=>{
     console.log(`Port Number ${port}`);
 })
