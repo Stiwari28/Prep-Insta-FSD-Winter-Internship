@@ -1,0 +1,64 @@
+
+#footer_container{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: palegreen; */
+    border-top: 1px solid rgb(23, 20, 13);
+    background-color: rgb(154, 137, 97);
+    position: relative;
+    bottom: 0;
+    width: 100vw;
+    height:20rem;
+}
+
+#SocialMedia_Links{
+    /* background-color: green; */
+    width: fit-content;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-right: 1px solid rgb(23, 20, 13);
+}
+
+
+#SocialMedia_Links h1{
+    font-size: 3rem;
+    font-family: "Cinzel", serif;
+    color: rgb(23, 20, 13);
+}
+#SocialMedia_Links h3{
+    color: rgb(23, 20, 13);
+    margin-top: 1rem;
+}
+
+#SocialMedia_bottom{
+    /* background-color: pink; */
+    padding: 2rem;
+}
+#SocialMedia_bottom p{
+    /* background-color: rgb(215, 56, 83); */
+    padding: 10px;
+}
+
+#QuickLinks{
+    /* background-color: greenyellow; */
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top:5px;
+    float: right;
+    right: 30px;
+}
+
+#TopDestination, #TravelInterest, #Us{
+    /* background-color: plum; */
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding-left: 3rem;
+   padding-right: 3rem;
+}
+
+#TopDestination p, #TravelInterest p, #Us h3{
+    padding: 5px;
+}
