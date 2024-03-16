@@ -1,0 +1,24 @@
+#dest_mainContainer{
+    background-color: pink;
+    padding: 10px;
+}
+#dest_top{
+    background-image: url('src/assets/DestinationsPage/destination_top.jpg');
+    background-position:center;
+    background-size: cover;
+    height: 20vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#dest_topContent{
+    background-color: rgba(255, 239, 213, 0.64);
+    padding: 10px;
+}
+
+#dest_topContent h2{
+    font-size: 2rem;
+}

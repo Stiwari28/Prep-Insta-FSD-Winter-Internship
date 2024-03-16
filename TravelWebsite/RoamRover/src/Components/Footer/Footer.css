@@ -62,3 +62,8 @@
 #TopDestination p, #TravelInterest p, #Us h3{
     padding: 5px;
 }
+
+#au, #cu{
+    text-decoration: none;
+    color: rgb(23, 20, 13);
+}
