@@ -18,27 +18,27 @@ const Footer = () => {
       <section id='QuickLinks'>
       <div id='TopDestination'>
        <h3>Top Destinations</h3>
-       <p>1</p>
-       <p>2</p>
-       <p>3</p>
-       <p>4</p>
-       <p>5</p>
-       <p>6</p>
-       <p>7</p>
-       <p>8</p>
-       <p>9</p>
-       <p>10</p>
+       <p>Paris</p>
+       <p>Rome</p>
+       <p>Bali</p>
+       <p>Santorini</p>
+       <p>New York City</p>
+       <p>Maldives</p>
+       <p>Barcelona</p>
+       <p>Bangkok</p>
+       <p>Amsterdam</p>
+       <p>Machu Picchu</p>
        </div>
        <div id='TravelInterest'>
        <h3>Travel Interest</h3>
-       <p>1</p>
-       <p>2</p>
-       <p>3</p>
-       <p>4</p>
-       <p>5</p>
-       <p>6</p>
-       <p>7</p>
-       <p>8</p>
+       <p>Maldives</p>
+       <p>Prague</p>
+       <p>Venice</p>
+       <p>Sydney</p>
+       <p>Cape Town</p>
+       <p>Cairo</p>
+       <p>Iceland</p>
+       <p>Spain</p>
       </div>
       <div id='Us'>
        <h3><Link id="au" to='/aboutus'>About Us</Link></h3>

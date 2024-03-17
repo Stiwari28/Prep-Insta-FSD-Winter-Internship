@@ -4,7 +4,7 @@
     justify-content: space-between;
     /* background-color: palegreen; */
     border-top: 1px solid rgb(23, 20, 13);
-    background-color: rgb(154, 137, 97);
+    background-color: rgba(154, 137, 97, 0.432);
     position: relative;
     bottom: 0;
     width: 100vw;

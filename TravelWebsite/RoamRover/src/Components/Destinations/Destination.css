@@ -1,5 +1,5 @@
 #dest_mainContainer{
-    background-color: pink;
+    /* background-color: pink; */
     padding: 10px;
 }
 #dest_top{
@@ -21,4 +21,218 @@
 
 #dest_topContent h2{
     font-size: 2rem;
+}
+
+#dest_bottom{
+    padding-top: 10px;
+    margin-top: 15px;
+}
+
+.dest_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* background-color: gray; */
+    margin: 10px;
+    padding: 10px;
+}
+
+.dest{
+    /* border: 1px solid black; */
+    margin: 10px;
+    width: 25%;
+    background-color: white;
+
+}
+
+.dest_image{
+    height: 30vh;
+    border-radius: 5px;
+}
+
+#dest1{
+    background-image: url('src/assets/30Destinations/Paris.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest2{
+    background-image: url('src/assets/30Destinations/Kyoto.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest3{
+    background-image: url('src/assets/30Destinations/Rome.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest4{
+    background-image: url('src/assets/30Destinations/Nyc.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest5{
+    background-image: url('src/assets/30Destinations/Santorini.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest6{
+    background-image: url('src/assets/30Destinations/Jaipur.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest7{
+    background-image: url('src/assets/30Destinations/MachuPicchu.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest8{
+    background-image: url('src/assets/30Destinations/Bali.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest9{
+    background-image: url('src/assets/30Destinations/CapeTown.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest10{
+    background-image: url('src/assets/30Destinations/Istanbul.jpg');
+    background-position:center;
+    background-size: cover;
+}
+
+#dest11{
+    background-image: url('src/assets/30Destinations/Venice.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest12{
+    background-image: url('src/assets/30Destinations/Queenstown.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest13{
+    background-image: url('src/assets/30Destinations/Prague.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest14{
+    background-image: url('src/assets/30Destinations/BoraBora.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest15{
+    background-image: url('src/assets/30Destinations/Dubai.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest16{
+    background-image: url('src/assets/30Destinations/Barcelona.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest17{
+    background-image: url('src/assets/30Destinations/Maldives.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest18{
+    background-image: url('src/assets/30Destinations/RioDeJaneiro.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest19{
+    background-image: url('src/assets/30Destinations/Cairo.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest20{
+    background-image: url('src/assets/30Destinations/Sydney.jpg');
+    background-position:center;
+    background-size: cover;
+}
+
+#dest21{
+    background-image: url('src/assets/30Destinations/Amsterdam.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest22{
+    background-image: url('src/assets/30Destinations/Petra.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest23{
+    background-image: url('src/assets/30Destinations/Florence.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest24{
+    background-image: url('src/assets/30Destinations/BanffNationalPark.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest25{
+    background-image: url('src/assets/30Destinations/Dubrovnik.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest26{
+    background-image: url('src/assets/30Destinations/Bangkok.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest27{
+    background-image: url('src/assets/30Destinations/CinqueTerre.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest28{
+    background-image: url('src/assets/30Destinations/Budapest.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest29{
+    background-image: url('src/assets/30Destinations/GreatBarrierReef.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#dest30{
+    background-image: url('src/assets/30Destinations/SanFrancisco.jpg');
+    background-position:center;
+    background-size: cover;
+}
+.dest_description{
+    /* background-color: plum; */
+    margin-top: 10px;
+}
+
+.dest_heading h4{
+    padding: 4px 6px;
+    /* background-color: green; */
+    width: fit-content;
+    border-radius: 20%;
+    margin-left: 5px;
+}
+
+.dest_heading h3{
+    padding: 5px;
+    font-size: 1.2rem;
+}
+
+.dest_detail{
+    /* background-color: rgb(103, 103, 168); */
+    padding: 5px;
+}
+
+.dest_button{
+    padding: 5px;
+}
+
+.dest_button button{
+    padding: 3px;
+    border: none;
+    background-color:  rgb(23, 20, 13);
+    color: white;
 }

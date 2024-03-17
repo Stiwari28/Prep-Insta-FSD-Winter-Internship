@@ -1,0 +1,292 @@
+#home_mainContainer{
+    /* background-color: pink; */
+    padding: 10px;
+}
+#home_top{
+    background-image: url('src/assets/home.jpg');
+    background-position:center;
+    background-size: cover;
+    height: 20vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#home_topContent{
+    background-color: rgba(255, 239, 213, 0.64);
+    padding: 10px;
+}
+
+#home_topContent h2{
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
+.topSpot{
+    background-color: paleturquoise;
+    margin: 10px;
+    margin-bottom: 2rem;
+    padding: 5px;
+}
+.topSpot_top{
+    margin-left: 5px;
+}
+.topSpot_bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+    padding: 5px;
+    /* background-color: yellow; */
+}
+
+.topSpots{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    width: 20%;
+    background-color: white;
+}
+
+.topSpotsImg{
+    height: 20vh;
+    /* background-color: wheat; */
+    border-radius: 5px;
+}
+.topSpotsH{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+#t1{
+    background-image: url('src/assets/30Destinations/Paris.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#t2{
+    background-image: url('src/assets/30Destinations/Rome.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#t3{
+    background-image: url('src/assets/30Destinations/Bali.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#t4{
+    background-image: url('src/assets/30Destinations/Santorini.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#t5{
+    background-image: url('src/assets/30Destinations/Nyc.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#t6{
+    background-image: url('src/assets/30Destinations/Maldives.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#t7{
+    background-image: url('src/assets/30Destinations/Barcelona.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#t8{
+    background-image: url('src/assets/30Destinations/Bangkok.jpg');
+    background-position:center;
+    background-size: cover;
+}
+
+
+#t11{
+    background-image: url('src/assets/30Destinations/Amsterdam.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#t12{
+    background-image: url('src/assets/30Destinations/MachuPicchu.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#t13{
+    background-image: url('src/assets/30Destinations/Maldives.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#t14{
+    background-image: url('src/assets/30Destinations/Prague.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#t15{
+    background-image: url('src/assets/30Destinations/Venice.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#t16{
+    background-image: url('src/assets/30Destinations/Sydney.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#t17{
+    background-image: url('src/assets/30Destinations/CapeTown.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#t18{
+    background-image: url('src/assets/30Destinations/Cairo.jpg');
+    background-position:center;
+    background-size: cover;
+}
+
+
+
+#t21{
+    background-image: url('src/assets/Thailand.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#t22{
+    background-image: url('src/assets/India.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#t23{
+    background-image: url('src/assets/Japan.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#t24{
+    background-image: url('src/assets/Greece.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#t25{
+    background-image: url('src/assets/Italy.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#t26{
+    background-image: url('src/assets/Iceland.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#t27{
+    background-image: url('src/assets/Australia.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#t28{
+    background-image: url('src/assets/Peru.jpg');
+    background-position:center;
+    background-size: cover;
+}
+
+.months{
+    display: flex;
+    flex-direction: column;
+    background-color: palegreen;
+    padding: 10px;
+    margin-bottom: 2rem;
+    margin: 10px;
+}
+
+.months_top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.months_top h2{
+    font-size: 2rem;
+}
+
+.months_bottom{
+    display: flex;
+    flex-direction: column;
+    margin-top:2rem;
+}
+.monDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.mon{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    width: 20%;
+    background-color: white;
+}
+.monImg{
+    height: 20vh;
+}
+.monH{
+    padding: 10px;
+}
+#Jan{
+    background-image: url('src/assets/Months/Jan.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#Feb{
+    background-image: url('src/assets/Months/Feb.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#Mar{
+    background-image: url('src/assets/Months/Mar.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#Apr{
+    background-image: url('src/assets/Months/Apr.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#May{
+    background-image: url('src/assets/Months/May.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#Jun{
+    background-image: url('src/assets/Months/Jun.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#Jul{
+    background-image: url('src/assets/Months/Jul.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#Aug{
+    background-image: url('src/assets/Months/Aug.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#Sept{
+    background-image: url('src/assets/Months/Sept.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#Oct{
+    background-image: url('src/assets/Months/Oct.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#Nov{
+    background-image: url('src/assets/Months/Nov.jpg');
+    background-position:center;
+    background-size: cover;
+}
+#Dec{
+    background-image: url('src/assets/Months/Dec.jpg');
+    background-position:center;
+    background-size: cover;
+}
