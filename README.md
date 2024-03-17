@@ -74,3 +74,7 @@ Here are the projects I developed during the Winter Internship provided by PrepI
 - MongoDB, MongoDB compass, and NodeJS 
 ## 16. [Food and Nutrition DB :man_student: :woman_student:](https://github.com/Stiwari28/Prep-Insta-FSD-Winter-Internship/tree/main/FoodAndNutritionDB)
 - MongoDB, MongoDB compass, and NodeJS
+## 17. [Student Tasker :bookmark_tabs:](https://github.com/Stiwari28/Prep-Insta-FSD-Winter-Internship/tree/mainStudentTasker)
+- MongoDB, MongoDB compass, NodeJS, PostMan, HTML, CSS and JS
+## 18. [Travel Website :metro:](https://github.com/Stiwari28/Prep-Insta-FSD-Winter-Internship/tree/main/TravelWebsite/RoamRover)
+- HTML, CSS and React
