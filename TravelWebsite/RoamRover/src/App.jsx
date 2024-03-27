@@ -64,8 +64,6 @@ const App = () => {
     <Route path='/jaipur' element={<Jaipur/>}/>
     <Route path='/machupicchu' element={<MachuPichu/>}/>
     <Route path='/petra' element={<Petra/>}/>
-   
-
    </Routes>
    <Footer/>
    </BrowserRouter>
